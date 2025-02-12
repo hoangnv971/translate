@@ -1,0 +1,19 @@
+{
+  "name": "translate-service",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "hnv",
+  "license": "MIT",
+  "description": "A translation service ",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "fs": "^0.0.1-security",
+    "google-translate-api-x": "^10.7.2",
+    "openai": "^4.83.0"
+  }
+}
